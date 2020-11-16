@@ -1,4 +1,4 @@
-# centro_edu_unificado
+# projeto_ceu_univesp
 
 A new Flutter application.
 

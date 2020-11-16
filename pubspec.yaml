@@ -1,4 +1,4 @@
-name: centro_edu_unificado
+name: projeto_ceu_univesp
 description: A new Flutter application.
 
 # The following line prevents the package from being accidentally published to
@@ -23,22 +23,29 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  provider:
-  http:
 
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^0.1.3
+  http: ^0.12.0+1
+  flutter_staggered_grid_view: ^0.3.0
+  cloud_firestore: ^0.12.9
+  carousel_pro: ^1.0.0
+  transparent_image: ^1.0.0
+  scoped_model: ^1.0.1
+  firebase_auth: ^0.11.1+12
+  url_launcher: ^5.1.1
+
 
 dev_dependencies:
-  animations: ^1.1.2
-  intl_translation: ^ 0.17.1
-  flutter_gallery: ^2.4.0+20400
-
   flutter_test:
-   sdk: flutter
+    sdk: flutter
 
+  firebase_core: 0.4.0+8
+  image_cropper: 1.0.2
+  firebase_storage: 3.0.4
+  image_picker: 0.6.0+17
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
